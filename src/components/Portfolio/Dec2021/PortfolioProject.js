@@ -133,8 +133,8 @@ const PortfolioProject = () => {
        <div className='results jmap'>
            <div>
            <h3>Landing Page</h3>
-           <li>sdnajfdakfakfksjf</li>
-           <li>df skfdsdjfsdjfsdj</li>
+           <li>A light-weight display of featured projects</li>
+           <li>Quick links to resume and more projects</li>
            </div>
            <div>
            <img src='https://live.staticflickr.com/65535/51776364427_62bbf53652_b.jpg'/>
@@ -143,22 +143,22 @@ const PortfolioProject = () => {
        <div className='results jmap'>
            <div>
             <h3>Navigation Menu</h3>
-           <li></li>
-           <li></li></div>
+           <li>A responsive menu prompting a user's to navigate throughout the web application</li>
+           <li>'hotdog' menu for mobile users</li></div>
            <div><img src='https://live.staticflickr.com/65535/51778061590_68ccd29e30_b.jpg'/></div>       
        </div>
        <div className='results jmap'>
            <div>
             <h3>Project List Page</h3>
-           <li></li>
-           <li></li></div>
+           <li>A collection of work including references to technology used, source code and case study</li>
+    </div>
            <div><img src='https://live.staticflickr.com/65535/51783475753_26f22d1b57_b.jpg'/></div>       
        </div>
        <div className='results jmap'>
            <div>
             <h3>Single Project Page</h3>
-           <li></li>
-           <li></li></div>
+           <li>Detailed display of a single project's case study and documentation</li>
+           </div>
            <div><img src='https://live.staticflickr.com/65535/51783485358_d7c12dfea2_b.jpg'/></div>       
        </div>
        </div>
