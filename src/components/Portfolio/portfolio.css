@@ -1,0 +1,362 @@
+.project-container{
+    position: relative;
+}
+.project-header{
+background-image: url('https://live.staticflickr.com/65535/51777933200_5d4376670d_b.jpg');
+opacity: 0.5;
+height:450px ;
+background-size: 100vw 900px;
+background-repeat: no-repeat;
+background-attachment: fixed;
+max-width: 100vw;
+}
+.project-title{
+position: absolute;
+margin-left: 15vw;
+top: 10vh;
+text-transform: uppercase;
+font-size: 33px;
+font-weight: bold;
+}
+.project-description{
+position:absolute;
+margin-left: 35vw;
+top: 20vh;
+width: 60vw;
+padding-top: 10%;
+font-size: 20px;
+}
+
+/* SECTION 1 PROJECT SUMMARY */
+.project-summary{
+    display: block;
+    margin-top: 9%;
+    margin-left:9%;
+}
+.project-summary-title{
+margin: auto;
+text-transform: uppercase;
+font-size: 14px;
+letter-spacing: 1.1px;
+font-weight: bold;
+}
+.project-summary-content{
+    line-height: 20px;
+    padding: 9%;
+}
+.summary-video video{
+    width: 100vw;
+    height:240px;
+    margin-top:5%;
+}
+.user-paralax{
+    margin-top: 10%;
+    background-image: url('https://www.colorhexa.com/b1bca0.png');
+    height:150px ;
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 5vw;
+    position: relative;
+    display: flex;
+}
+.newsection{
+    position: absolute;
+    font-size: 40px;
+    margin-top: 10%;
+    margin-left: 10vw;
+    text-align: center;
+}
+.new-line {
+    white-space: pre-line;
+    margin-top: 11%;
+  }
+  .img1{
+      width:70vw;
+      height: 400px;
+      margin-top: 8%;
+  }
+  .image-persona{
+      width: 300px;
+      height: 300px;
+  }
+  .persona-container{
+      margin: 7%;
+  }
+.utu-text{
+    margin-top: 5%;
+    padding: 5%;
+    
+}
+  .user-stories{
+      display: flex;
+      padding: 5%;
+  }
+  .user-stories li{
+      line-height: 20px;
+  }
+  .us-1{
+      margin-right: 4%;
+      width: 100vw;
+    word-wrap: break-word;
+    
+  }
+  .journey-map,  .user-flow, .mobile-ui, .desktop-ui{
+      width: 90vw;
+      height: 400px;  
+      padding: 4%;
+      margin-right: 2%;
+  }
+  .ddp{
+      margin-top: 10%;
+      padding: 7%;
+  }
+
+/* PROJECT LIST PAGE */
+.proj-card{
+    width: 100vw;
+    height: 60vh;
+   margin-top: 10%;
+   margin-left: 2%;
+   text-align: center;
+   margin-top:10%;
+   background-color: rgba(236, 240, 241,0.4);
+}
+.proj-card img{
+    height: 300px;
+    width: 300px;
+}
+.proj-title{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.proj-desc{
+    width: 100vw;
+    word-wrap: break-word;
+}
+.flex{
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 15%;
+     display: flex;
+    padding-bottom: 30%;
+    text-decoration: underline;
+}
+.flex div{
+    margin-right: 10%;
+}
+.proj-paral{
+    background-image: url('https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80');
+height:220px ;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+max-width: 100vw;
+}
+
+/* RESULTS */
+.results img{
+    width: 100vw;
+    height: 400px;
+   padding-right: 3%;
+   padding-left: 3%;
+}
+
+@media (min-width:320px){
+    .project-description{
+        margin-top: 15%;
+    }
+    .project-summary-content{
+        margin-right: 7%;
+    }
+    .project-summary-title{
+        margin-left: 3%;
+        font-size: 20px;
+        overflow: hidden;
+    }
+    .summary-video video{
+        width: 90vw;
+        margin-left: 5%;
+    }
+}
+
+/* Mobile */
+@media (min-width:375px){
+    .project-description{
+        margin-top: 5%;
+    }
+    .project-summary-content{
+        text-align: left;
+        margin-left: 1%;
+    }
+    .project-summary-title{
+    margin-left: 2%;
+    font-size: 25px;
+    }
+}
+/* TABLET */
+@media (min-width:768px){
+    .project-title{
+        font-size: 40px;
+        
+    }
+    .project-description{
+       font-size: 35px;
+       margin: 0;
+    }
+    .proj-card{
+        height: 40vh;
+    }
+}
+
+/* DESKTOP */
+@media (min-width:1025px){
+    .proj-card{
+        display: inline-flex;
+   }
+   .proj-card img{
+    height: 300px;
+    width: 470px;
+}
+   .proj-desc{
+    padding-top: 5%;
+    width: 50vw;
+    word-wrap: break-word;
+}
+.flex{
+    margin-left: 28%;
+}
+.project-title{
+    margin-left: 35vw;
+}
+.project-description{
+    padding-top: 0;
+    margin-left: 37vw;
+}
+.summary-video video{
+   margin-left: 30%;
+    height:340px;
+    width: 50vw;
+}
+.project-summary{
+    display: flex;
+}
+}
+
+/* TABLET */
+@media (min-width:768px){
+    .proj-card{
+        display: inline-flex;
+      padding:5%;
+      margin-left: 1%;
+   }
+   .proj-card img{
+    height: 240px;
+    width: 270px;
+}
+   .proj-desc{
+    padding-top: 5%;
+    width: 50vw;
+    word-wrap: break-word;
+}
+.project-title{
+    margin-left: 15vw;
+}
+.project-description{
+    padding-top: 0;
+    margin-left: 37vw;
+}
+.summary-video video{
+    height:340px;
+    width: 75vw;
+    margin-left: 15%;
+}
+.project-summary{
+    display: flex;
+    font-size: 20px;
+}
+.project-summary-title{
+    width: 70vw;
+    word-wrap: break-word;
+}
+.project-summary-content{
+padding: 0;
+}
+.new-line{
+    display: none;
+}
+.img1{
+    height: 380px;
+    width: 520px;
+}
+.role{
+    margin-right: 19%;
+}
+.challenge{
+    width: 72vw;
+    word-wrap: break-word;
+}
+.questions{
+    margin-top: 5%;
+}
+.user-paralax{
+    max-width: 3vw;
+    height:185px ;
+}
+.newsection{
+    font-size: 55px;
+    /* border: 1px black solid; */
+}
+.flex-persona{
+    display: flex;
+}
+.utu-text{
+    width: 50vw;
+    word-wrap: break-word;
+}
+.image-persona{
+    width: 250px;
+    height: 250px;
+}
+.user-stories{
+    padding: 2%;
+    margin-left: 10%;
+    margin-top: 2%;
+    font-size: 20px;
+}
+.us-1{
+    width: 54vw;
+    word-wrap: break-word;
+    margin-left: 5%;
+}
+.jmap{
+    display: flex;
+    
+}
+.mobile-ui,.desktop-ui{
+    width: 350px;
+    height: 450px;
+    margin-left: 15%;
+}
+.ddp{
+    margin-top: 2%;
+    /* border: 1px black solid; */
+    padding-bottom: 0;
+    font-size: 20px;
+}
+.margin-t{
+    margin-top: 10%;
+}
+.results img{
+    width: 470px;
+    height: 450px;
+}
+.regards{
+    padding-top: 0;
+    padding-bottom: 10%;
+    width: 65%;
+    word-wrap: break-word;
+}
+.flex-persona{
+    font-size: 20px;
+}
+}
