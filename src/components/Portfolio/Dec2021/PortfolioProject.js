@@ -3,6 +3,7 @@ import Hamburger from '../../HomePage/Hamburger'
 import Nav from '../../HomePage/Nav'
 import '../portfolio.css'
 import '../../../App.css'
+import Video from '../Video'
 
 const PortfolioProject = () => {
     return (
@@ -15,7 +16,7 @@ const PortfolioProject = () => {
             <div className='project-description'>Welcome to TroyDomio.me, a responsive development and design portfolio to showcase my latest work. </div>
        </div>
        <div className='summary-video'>
-        <video src='movie.mp4' controls='controls'/>
+        <Video embedId='CdR448DuXjg'/>
        </div>
        <div className='project-summary'>
            <div className='project-summary-title'>Project Summary</div>
