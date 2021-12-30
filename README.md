@@ -2,7 +2,7 @@
 
 This project is a multi-component React application styled with css. 
 
-## Component Hierarchy
+## Component Hierarchy!
 Upon breaking down my low-fidelity mockup from Figma, 3 main component categories emerged. I created sub-components for each category (some of them are re-usable)
 
 ![Component Hierarchy](https://live.staticflickr.com/65535/51786713639_9c1955da5d_b.jpg)
