@@ -1,0 +1,41 @@
+.about{
+    display: flex;
+    padding:5%;
+    width: 80vw;
+}
+.socials{
+    display:block;
+    text-align: center;
+    padding-left: 8%;
+}
+.border{
+    border: 1px black solid;
+    margin: 2%;
+}
+.email{
+    margin: 2%;
+}
+
+@media (min-width:375px){
+    .about{
+        display:block;
+        width: 100vw;
+    }
+    .socials{
+        margin-top: 5%;
+    }
+}
+@media (min-width:1025px){
+    .about{
+        display: flex;
+        padding:5%;
+        width: 80vw;
+    }
+}
+@media (min-width:768px){
+    .about{
+        display: flex;
+        padding:5%;
+        width: 90vw;
+    }
+}
