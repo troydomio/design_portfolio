@@ -8,6 +8,7 @@ import Portfolio from './components/Portfolio/Portfolio'
 import PortfolioProject from './components/Portfolio/Dec2021/PortfolioProject';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import images from './projectdata.js'
+import Careapp from './components/Portfolio/Jan 2022/Care App/careapp';
 
 
 
@@ -30,6 +31,9 @@ function App() {
         </Routes>
         <Routes>
           <Route path='/portfolio/portfolio-project' element={<PortfolioProject/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/portfolio/care-project' element={<Careapp/>}/>
         </Routes>
       </Router>
       

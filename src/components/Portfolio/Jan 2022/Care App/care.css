@@ -1,0 +1,19 @@
+
+ .care-images img{
+     padding-top: 25%;
+     width: 100vw;
+ }
+ .care-images{
+     padding-bottom: 5%;
+ }
+
+  /* DESKTOP */
+  @media (min-width:1025px){
+    .care-images img{
+       padding:3%;
+       width: 75vw;
+       margin-left: 12%;
+    }  
+  }
+
+  
