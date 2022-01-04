@@ -17,15 +17,16 @@ const ProjectHomePage = () => {
          title = 'Design & Development Portfolio'
          description='Welcome to TroyDomio.me, a responsive development and design portfolio to showcase my latest work.'
          caseurl='/portfolio/portfolio-project'
-         code='/code'
+         code='https://github.com/troydomio/design_portfolio'
          /> 
-          {/* <ProjectCard 
-         image='https://images.unsplash.com/photo-1610047803562-7260ebe516cc?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80' 
-         title = 'Title'
-         description='dsdfnksdfnskjnfskjnfjnjkndaksjndakjndakjdnajndakjndakjdnakdjnakdjnasdjkaskdjnakjncsjcnzkjc'
-         caseurl='/portfolio/portfolio-project'
-         code='/code'
-         /> */}
+          <ProjectCard 
+          className="one"
+         image='https://live.staticflickr.com/65535/51799818378_7898af66da_b.jpg' 
+         title = 'Care: Case Study '
+         description='A life skills app for developing minds.'
+         caseurl='/portfolio/care-project'
+         code='https://github.com/troydomio/Care-Project'
+         />
         </div>
     )
 }

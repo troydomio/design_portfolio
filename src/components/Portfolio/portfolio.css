@@ -120,9 +120,9 @@ font-weight: bold;
    margin-top: 10%;
    margin-left: 2%;
    text-align: center;
-   margin-top:10%;
    background-color: rgba(236, 240, 241,0.4);
 }
+
 .proj-card img{
     height: 300px;
     width: 300px;
@@ -130,7 +130,10 @@ font-weight: bold;
 .proj-title{
     text-transform: uppercase;
     font-size: 25px;
+    margin-top: 23%;
 }
+
+
 .proj-desc{
     width: 100vw;
     word-wrap: break-word;
@@ -143,6 +146,7 @@ font-weight: bold;
     padding-bottom: 30%;
     text-decoration: underline;
 }
+
 .flex div{
     margin-right: 10%;
 }

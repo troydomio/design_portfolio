@@ -14,7 +14,7 @@ const ProjectCard = ({image, description,title,caseurl,code}) => {
              <p>React | JavaScript | HTML | CSS | Figma</p>      
                 <div className='flex'>
                 <div><a href={caseurl}>Case Study</a></div>
-                <div><a href={code}>View Code</a></div>
+                <div ><a href={code}>View Code</a></div>
             </div>
             </div>
         </div>
